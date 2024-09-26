@@ -1,0 +1,144 @@
+
+html, body {
+    overflow-x: hidden; 
+}
+
+body {
+    background-color:#000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.contenedor {
+
+	max-width: 1000px;
+    
+    background-size: cover;
+    
+    background-position:center;
+	margin-left: auto; 
+	margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .85;
+}
+
+
+
+.barra-navegacion .info h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.barra-navegacion .info p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.contacto {
+    position: relative;
+    right: -1045px;
+    top: -180px;
+    border-bottom: 1px solid transparent;
+    transition: .5s ease;
+    }
+   
+    
+    .contacto:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    }
+    .contacto1 {
+    position: relative;
+    right: -1110px;
+    top: -229px;
+    transition: .5s ease;
+    }
+
+    .contacto1:hover {
+        transform: translateY(-5px); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    }
+
+
+
+
+.contenido-descripcion {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    text-decoration: none; 
+    align-items: center;
+}
+
+.contenido-descripcion .titulo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contenido-descripcion .titulo span:first-child {
+    font-size: 50px; 
+    display: block;
+    font-weight: 300;
+}
+
+.contenido-descripcion .titulo span:last-child {
+    font-weight: 900;
+    font-size: 100px;
+}
+.proyecto-link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.proyecto-contenedor {
+    background-color: #0a0a0a60; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 250px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+       margin: 20px auto; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.proyecto-contenedor:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.imagen-proyecto {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+}
+
+.titulo-proyecto {
+    font-size: 22px; 
+    font-weight: 600; 
+    color: #fff; 
+    margin-bottom: 10px;
+}
+
+.descripcion-proyecto {
+    font-size: 14px; 
+    color: #ccc; 
+    line-height: 1.5; 
+}
+
+
