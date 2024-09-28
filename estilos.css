@@ -141,4 +141,13 @@ body {
     line-height: 1.5; 
 }
 
+.cursos {
+    font-size: 19px; 
+    font-weight: 550; 
+    color: #fff; 
+    margin-bottom: 10px;
+    text-decoration:none
+}
+
+
 
