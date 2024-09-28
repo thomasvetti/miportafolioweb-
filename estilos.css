@@ -146,8 +146,11 @@ body {
     font-weight: 550; 
     color: #fff; 
     margin-bottom: 10px;
+    transition: color 0.3s ease;
     text-decoration:none
 }
-
+a.cursos:hover {
+    color: #2e2d2d; 
+}
 
 
