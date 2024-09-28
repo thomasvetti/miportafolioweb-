@@ -141,16 +141,16 @@ body {
     line-height: 1.5; 
 }
 
-.cursos {
-    font-size: 19px; 
-    font-weight: 550; 
-    color: #fff; 
-    margin-bottom: 10px;
-    transition: color 0.3s ease;
-    text-decoration:none
+a.cursos {
+    font-size: 19px !important; 
+    font-weight: 550 !important; 
+    color: #fff !important; 
+    margin-bottom: 10px !important;
+    transition: color 0.3s ease !important;
+    text-decoration:none !important;
 }
 a.cursos:hover {
-    color: #2e2d2d; 
+    color: #2e2d2d !important; 
 }
 
 
